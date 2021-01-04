@@ -22,4 +22,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+<<<<<<< HEAD
 # SiteRoot
+=======
+
+>>>>>>> 5861ae59ac9e9290f1a242c2c39df9a8f2b784a5
