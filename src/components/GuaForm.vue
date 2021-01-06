@@ -49,7 +49,7 @@
 			submit: function() {
 				this.validate();
 				if (this.valid) {
-					this.$router.push({ path: "/guas/"+this.result.name, query: { yao: this.number3%6 === 0?6:this.number3%6 }});
+					this.$router.push({ name: 'DestinationDetails', params: {name: this.result.name, downer: this.resultDowner.name, upper: this.resultUpper.name, yao: this.number3%6 === 0?6:this.number3%6}});
 					this.submitted = true;
 				}
 			} //end submit
